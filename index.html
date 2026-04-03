@@ -1,25 +1,74 @@
----
-title: Home
-description: Personal website of Muhammad Mujtaba, a Computer Engineering student sharing his academic profile and growth journey.
-permalink: /
-footer_text: Built with HTML, CSS, JavaScript, YAML, and Jekyll for a cleaner long-term structure.
-footer_link_label: Visit the Blog Section
-footer_link_url: /blog.html
----
-{% assign profile = site.data.profile %}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal website of Muhammad Mujtaba, a Computer Engineering student sharing his academic profile and growth journey.">
+<title>Home | Muhammad Mujtaba</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+
+
+</head>
+<body>
+  <div class="site-shell">
+    
+<header class="site-header">
+  <div class="brand">
+    <a href="/">Muhammad Mujtaba</a>
+    <p>Computer Engineering Student</p>
+  </div>
+
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span class="sr-only">Toggle navigation</span>
+  </button>
+
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    
+      
+      
+      <a class="active" href="/" aria-current="page">Home</a>
+    
+      
+      
+      <a href="/blog.html">Blog</a>
+    
+      
+      
+      <a href="/about.html">About</a>
+    
+      
+      
+      <a href="/contact.html">Contact Us</a>
+    
+  </nav>
+
+  <button class="theme-toggle" type="button" aria-pressed="false">
+    <span class="theme-toggle-text">Theme</span>
+  </button>
+</header>
+
+
+    <main class="page">
+      
 <section class="surface hero" data-reveal>
   <div class="hero-copy">
     <span class="eyebrow">Personal Portfolio</span>
-    <h1>Hi, I&apos;m {{ profile.name }}.</h1>
-    <p class="lead">{{ profile.tagline }}</p>
+    <h1>Hi, I&apos;m Muhammad Mujtaba.</h1>
+    <p class="lead">Computer Engineering student, growth-driven learner, and future-focused problem solver.</p>
     <p>
       I am building my academic journey with patience, discipline, and a strong desire to improve. This main page
       shares fixed information about me only, while my detailed articles and reflections stay organized separately in
       the Blog section.
     </p>
     <div class="cta-group">
-      <a class="button" href="{{ '/about.html' | relative_url }}">Explore My Story</a>
-      <a class="button-secondary" href="{{ '/blog.html' | relative_url }}">Read My Journey</a>
+      <a class="button" href="/about.html">Explore My Story</a>
+      <a class="button-secondary" href="/blog.html">Read My Journey</a>
     </div>
   </div>
 
@@ -31,19 +80,19 @@ footer_link_url: /blog.html
     <ul class="meta-list">
       <li>
         <span class="meta-label">Student</span>
-        <span class="meta-value">{{ profile.name }}</span>
+        <span class="meta-value">Muhammad Mujtaba</span>
       </li>
       <li>
         <span class="meta-label">Major</span>
-        <span class="meta-value">{{ profile.field }}</span>
+        <span class="meta-value">Computer Engineering</span>
       </li>
       <li>
         <span class="meta-label">Campus</span>
-        <span class="meta-value">{{ profile.university }}</span>
+        <span class="meta-value">UET</span>
       </li>
       <li>
         <span class="meta-label">Reach Me</span>
-        <span class="meta-value">{{ profile.email }}</span>
+        <span class="meta-value">m.zahra.4454@gmail.com</span>
       </li>
     </ul>
   </aside>
@@ -57,38 +106,35 @@ footer_link_url: /blog.html
     </div>
     <p>
       These illustrations reflect the transition, study effort, and future direction that shape my journey in
-      Computer Engineering. Click any image to view it fully.
+      Computer Engineering.
     </p>
   </div>
   <div class="visual-grid">
     <figure class="visual-card">
-      <a class="image-button" href="{{ '/posts/article-04.html' | relative_url }}" aria-label="Open Article 4 about switching fields">
-        <img src="{{ '/assets/visual-transition.svg' | relative_url }}" alt="Transition from one academic path into engineering">
-      </a>
+      <div class="image-button static-image" aria-hidden="true">
+        <img src="/assets/visual-transition.svg" alt="Transition from one academic path into engineering">
+      </div>
       <figcaption class="visual-caption">
         <strong>Transition</strong>
-        From uncertainty into a new technical field. Opens Article 4.
-        <a class="link-inline visual-link" href="{{ '/posts/article-04.html' | relative_url }}">Read related article</a>
+        From uncertainty into a new technical field.
       </figcaption>
     </figure>
     <figure class="visual-card">
-      <a class="image-button" href="{{ '/posts/article-06.html' | relative_url }}" aria-label="Open Article 6 about academic pressure and time management">
-        <img src="{{ '/assets/visual-discipline.svg' | relative_url }}" alt="Study discipline, planning, and steady academic effort">
-      </a>
+      <div class="image-button static-image" aria-hidden="true">
+        <img src="/assets/visual-discipline.svg" alt="Study discipline, planning, and steady academic effort">
+      </div>
       <figcaption class="visual-caption">
         <strong>Discipline</strong>
-        The routine of learning, planning, and staying consistent. Opens Article 6.
-        <a class="link-inline visual-link" href="{{ '/posts/article-06.html' | relative_url }}">Read related article</a>
+        The routine of learning, planning, and staying consistent.
       </figcaption>
     </figure>
     <figure class="visual-card">
-      <a class="image-button" href="{{ '/posts/article-10.html' | relative_url }}" aria-label="Open Article 10 about growth and future goals">
-        <img src="{{ '/assets/visual-future.svg' | relative_url }}" alt="Future goals, growth, and professional direction">
-      </a>
+      <div class="image-button static-image" aria-hidden="true">
+        <img src="/assets/visual-future.svg" alt="Future goals, growth, and professional direction">
+      </div>
       <figcaption class="visual-caption">
         <strong>Future Goals</strong>
-        A clearer view of progress, confidence, and career direction. Opens Article 10.
-        <a class="link-inline visual-link" href="{{ '/posts/article-10.html' | relative_url }}">Read related article</a>
+        A clearer view of progress, confidence, and career direction.
       </figcaption>
     </figure>
   </div>
@@ -133,9 +179,17 @@ footer_link_url: /blog.html
       academic progress possible.
     </p>
     <ul class="chip-list">
-      {% for item in profile.focus_areas %}
-        <li class="chip">{{ item }}</li>
-      {% endfor %}
+      
+        <li class="chip">Programming Fundamentals</li>
+      
+        <li class="chip">Problem Solving</li>
+      
+        <li class="chip">Time Management</li>
+      
+        <li class="chip">Consistent Learning</li>
+      
+        <li class="chip">Engineering Discipline</li>
+      
     </ul>
   </article>
 
@@ -147,9 +201,17 @@ footer_link_url: /blog.html
       courage to keep improving after setbacks.
     </p>
     <ul class="chip-list">
-      {% for item in profile.strengths %}
-        <li class="chip">{{ item }}</li>
-      {% endfor %}
+      
+        <li class="chip">Resilience</li>
+      
+        <li class="chip">Adaptability</li>
+      
+        <li class="chip">Patience</li>
+      
+        <li class="chip">Responsibility</li>
+      
+        <li class="chip">Self-Belief</li>
+      
     </ul>
   </article>
 </section>
@@ -180,3 +242,18 @@ footer_link_url: /blog.html
     </article>
   </div>
 </section>
+
+    </main>
+    
+<footer class="site-footer">
+  <p>Built as a clean static website using HTML, CSS, and JavaScript.</p>
+  
+    <p><a class="link-inline" href="/blog.html">Visit the Blog Section</a></p>
+  
+</footer>
+
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
+

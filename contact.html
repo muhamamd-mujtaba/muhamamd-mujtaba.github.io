@@ -1,18 +1,67 @@
----
-title: Contact Us
-description: Contact Muhammad Mujtaba through email or GitHub Pages.
-permalink: /contact.html
-footer_text: Contact page designed for a clean GitHub Pages presentation.
-footer_link_label: Read My Profile
-footer_link_url: /about.html
----
-{% assign profile = site.data.profile %}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact Muhammad Mujtaba through email or GitHub Pages.">
+<title>Contact Us | Muhammad Mujtaba</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+
+
+</head>
+<body>
+  <div class="site-shell">
+    
+<header class="site-header">
+  <div class="brand">
+    <a href="/">Muhammad Mujtaba</a>
+    <p>Computer Engineering Student</p>
+  </div>
+
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span class="sr-only">Toggle navigation</span>
+  </button>
+
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    
+      
+      
+      <a href="/">Home</a>
+    
+      
+      
+      <a href="/blog.html">Blog</a>
+    
+      
+      
+      <a href="/about.html">About</a>
+    
+      
+      
+      <a class="active" href="/contact.html" aria-current="page">Contact Us</a>
+    
+  </nav>
+
+  <button class="theme-toggle" type="button" aria-pressed="false">
+    <span class="theme-toggle-text">Theme</span>
+  </button>
+</header>
+
+
+    <main class="page">
+      
 <section class="surface page-hero" data-reveal>
   <span class="eyebrow">Contact</span>
   <h1>Let&apos;s keep communication simple, clear, and professional.</h1>
   <p>
-    This page gathers my contact details in one place. The website stays lightweight, while my blog content is now
-    managed in a cleaner Jekyll structure for easier future updates.
+    This page gathers my contact details in one place. The website stays lightweight, clear, and easy to manage as a
+    simple static portfolio.
   </p>
 </section>
 
@@ -27,11 +76,11 @@ footer_link_url: /about.html
     <ul class="contact-list">
       <li>
         <span class="meta-label">Email</span>
-        <span class="meta-value">{{ profile.email }}</span>
+        <span class="meta-value">m.zahra.4454@gmail.com</span>
       </li>
       <li>
         <span class="meta-label">Field</span>
-        <span class="meta-value">{{ profile.field }}</span>
+        <span class="meta-value">Computer Engineering</span>
       </li>
       <li>
         <span class="meta-label">Purpose</span>
@@ -39,8 +88,8 @@ footer_link_url: /about.html
       </li>
     </ul>
     <div class="cta-group">
-      <a class="button" href="mailto:{{ profile.email }}">Send Email</a>
-      <a class="button-secondary" href="{{ '/blog.html' | relative_url }}">View Articles</a>
+      <a class="button" href="mailto:m.zahra.4454@gmail.com">Send Email</a>
+      <a class="button-secondary" href="/blog.html">View Articles</a>
     </div>
   </article>
 
@@ -51,7 +100,7 @@ footer_link_url: /about.html
       You can use the form below to prepare a message. When you submit it, your device will open the default email
       app with the details ready to review.
     </p>
-    <form action="mailto:{{ profile.email }}" method="post" enctype="text/plain">
+    <form action="mailto:m.zahra.4454@gmail.com" method="post" enctype="text/plain">
       <div class="field-group">
         <label for="name">
           Your Name
@@ -98,15 +147,30 @@ footer_link_url: /about.html
     <span class="mini-label">Website Note</span>
     <h2 class="card-title">Built to stay simple and reliable</h2>
     <p>
-      The public pages remain lightweight and easy to host on GitHub Pages, while the Jekyll structure now helps me
-      keep future blog posts organized with less repeated editing.
+      The public pages remain lightweight and easy to host on GitHub Pages, while the static structure keeps the
+      website reliable, clear, and straightforward.
     </p>
     <ul class="chip-list">
       <li class="chip">HTML</li>
       <li class="chip">CSS</li>
       <li class="chip">JavaScript</li>
-      <li class="chip">Jekyll</li>
+      <li class="chip">Static Hosting</li>
       <li class="chip">GitHub Pages</li>
     </ul>
   </article>
 </section>
+
+    </main>
+    
+<footer class="site-footer">
+  <p>Contact page designed for a clean GitHub Pages presentation.</p>
+  
+    <p><a class="link-inline" href="/about.html">Read My Profile</a></p>
+  
+</footer>
+
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
+
