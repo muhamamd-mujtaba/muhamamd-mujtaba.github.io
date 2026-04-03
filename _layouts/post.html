@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign article_code = page.article_number | plus: 100 | append: "" | remove_first: "1" %}
 <article class="surface article-page">
   <div class="article-header">
     <span class="eyebrow">Article {{ page.article_number }}</span>
@@ -9,6 +10,11 @@ layout: default
       <p>{{ page.summary }}</p>
     {% endif %}
   </div>
+
+  <figure class="article-visual-card">
+    <img src="{{ '/assets/article-' | append: article_code | append: '-visual.svg' | relative_url }}" alt="Visual for Article {{ page.article_number }}: {{ page.title }}">
+    <figcaption>A related visual that highlights the main theme of this article.</figcaption>
+  </figure>
 
   {% if page.points %}
     <section class="article-points">
