@@ -1,0 +1,29 @@
+{% assign profile = site.data.profile %}
+<header class="site-header">
+  <div class="brand">
+    <a href="{{ '/' | relative_url }}">{{ profile.name }}</a>
+    <p>{{ profile.title }}</p>
+  </div>
+
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span class="sr-only">Toggle navigation</span>
+  </button>
+
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    {% for item in site.data.navigation %}
+      {% assign is_active = false %}
+      {% if page.url == item.url %}
+        {% assign is_active = true %}
+      {% endif %}
+      <a{% if is_active %} class="active"{% endif %} href="{{ item.url | relative_url }}"{% if is_active %} aria-current="page"{% endif %}>{{ item.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <button class="theme-toggle" type="button" aria-pressed="false">
+    <span class="theme-toggle-text">Theme</span>
+  </button>
+</header>
+

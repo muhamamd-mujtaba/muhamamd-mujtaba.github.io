@@ -1,142 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Muhammad Mujtaba through email or GitHub Pages.">
-  <title>Contact Us | Muhammad Mujtaba</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand">
-        <a href="index.html">Muhammad Mujtaba</a>
-        <p>Computer Engineering Student</p>
+---
+title: Contact Us
+description: Contact Muhammad Mujtaba through email or GitHub Pages.
+footer_text: Contact page designed for a clean GitHub Pages presentation.
+footer_link_label: Read My Profile
+footer_link_url: /about.html
+---
+{% assign profile = site.data.profile %}
+<section class="surface page-hero" data-reveal>
+  <span class="eyebrow">Contact</span>
+  <h1>Let&apos;s keep communication simple, clear, and professional.</h1>
+  <p>
+    This page gathers my contact details in one place. The website stays lightweight, while my blog content is now
+    managed in a cleaner Jekyll structure for easier future updates.
+  </p>
+</section>
+
+<section class="contact-grid">
+  <article class="surface contact-card" data-reveal>
+    <span class="mini-label">Direct Details</span>
+    <h2>Get in touch</h2>
+    <p>
+      If you want to discuss my portfolio, academic work, or website content, email is the easiest and most direct
+      way to reach me.
+    </p>
+    <ul class="contact-list">
+      <li>
+        <span class="meta-label">Email</span>
+        <span class="meta-value">{{ profile.email }}</span>
+      </li>
+      <li>
+        <span class="meta-label">Field</span>
+        <span class="meta-value">{{ profile.field }}</span>
+      </li>
+      <li>
+        <span class="meta-label">Purpose</span>
+        <span class="meta-value">Portfolio &amp; Academic Contact</span>
+      </li>
+    </ul>
+    <div class="cta-group">
+      <a class="button" href="mailto:{{ profile.email }}">Send Email</a>
+      <a class="button-secondary" href="{{ '/blog.html' | relative_url }}">View Articles</a>
+    </div>
+  </article>
+
+  <article class="surface form-card" data-reveal>
+    <span class="mini-label">Quick Message</span>
+    <h2>Draft an email from this page</h2>
+    <p>
+      You can use the form below to prepare a message. When you submit it, your device will open the default email
+      app with the details ready to review.
+    </p>
+    <form action="mailto:{{ profile.email }}" method="post" enctype="text/plain">
+      <div class="field-group">
+        <label for="name">
+          Your Name
+          <input id="name" name="Name" type="text" placeholder="Enter your name">
+        </label>
+        <label for="email">
+          Your Email
+          <input id="email" name="Email" type="email" placeholder="Enter your email">
+        </label>
+        <label for="message">
+          Your Message
+          <textarea id="message" name="Message" placeholder="Write your message here"></textarea>
+        </label>
       </div>
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a class="active" href="contact.html" aria-current="page">Contact Us</a>
-        <a href="blog.html">Blog</a>
-      </nav>
-    </header>
+      <div class="cta-group">
+        <button class="button" type="submit">Compose Message</button>
+      </div>
+    </form>
+    <p class="note">This form opens a mail draft instead of using a server-side contact service.</p>
+  </article>
+</section>
 
-    <main class="page">
-      <section class="surface page-hero">
-        <span class="eyebrow">Contact</span>
-        <h1>Let&apos;s keep communication simple, clear, and professional.</h1>
-        <p>
-          This page gathers my contact details in one place. The website is built with pure HTML, so the message form
-          opens your email application instead of sending data through a backend service.
-        </p>
-      </section>
+<section class="surface grid-2">
+  <article class="detail-card" data-reveal>
+    <span class="mini-label">Best Use</span>
+    <h2 class="card-title">What this contact page is for</h2>
+    <ul class="detail-list">
+      <li>
+        <strong>Portfolio communication</strong>
+        Ideal for sharing feedback about the website or asking about the content inside it.
+      </li>
+      <li>
+        <strong>Academic introduction</strong>
+        Useful when someone wants to learn more about my profile as a Computer Engineering student.
+      </li>
+      <li>
+        <strong>Professional presentation</strong>
+        The layout keeps the contact section neat and easy to understand for teachers and visitors.
+      </li>
+    </ul>
+  </article>
 
-      <section class="contact-grid">
-        <article class="surface contact-card">
-          <span class="mini-label">Direct Details</span>
-          <h2>Get in touch</h2>
-          <p>
-            If you want to discuss my portfolio, academic work, or website content, email is the easiest and most direct
-            way to reach me.
-          </p>
-          <ul class="contact-list">
-            <li>
-              <span class="meta-label">Email</span>
-              <span class="meta-value">m.zahra.4454@gmail.com</span>
-            </li>
-            <li>
-              <span class="meta-label">Field</span>
-              <span class="meta-value">Computer Engineering</span>
-            </li>
-            <li>
-              <span class="meta-label">Purpose</span>
-              <span class="meta-value">Portfolio &amp; Academic Contact</span>
-            </li>
-          </ul>
-          <div class="cta-group">
-            <a class="button" href="mailto:m.zahra.4454@gmail.com">Send Email</a>
-            <a class="button-secondary" href="blog.html">View Articles</a>
-          </div>
-        </article>
-
-        <article class="surface form-card">
-          <span class="mini-label">Quick Message</span>
-          <h2>Draft an email from this page</h2>
-          <p>
-            You can use the form below to prepare a message. When you submit it, your device will open the default email
-            app with the details ready to review.
-          </p>
-          <form action="mailto:m.zahra.4454@gmail.com" method="post" enctype="text/plain">
-            <div class="field-group">
-              <label for="name">
-                Your Name
-                <input id="name" name="Name" type="text" placeholder="Enter your name">
-              </label>
-              <label for="email">
-                Your Email
-                <input id="email" name="Email" type="email" placeholder="Enter your email">
-              </label>
-              <label for="message">
-                Your Message
-                <textarea id="message" name="Message" placeholder="Write your message here"></textarea>
-              </label>
-            </div>
-            <div class="cta-group">
-              <button class="button" type="submit">Compose Message</button>
-            </div>
-          </form>
-          <p class="note">Static HTML websites do not send form data by themselves, so this form opens a mail draft instead of using a server.</p>
-        </article>
-      </section>
-
-      <section class="surface grid-2">
-        <article class="detail-card">
-          <span class="mini-label">Best Use</span>
-          <h2 class="card-title">What this contact page is for</h2>
-          <ul class="detail-list">
-            <li>
-              <strong>Portfolio communication</strong>
-              Ideal for sharing feedback about the website or asking about the content inside it.
-            </li>
-            <li>
-              <strong>Academic introduction</strong>
-              Useful when someone wants to learn more about my profile as a Computer Engineering student.
-            </li>
-            <li>
-              <strong>Professional presentation</strong>
-              The layout keeps the contact section neat and easy to understand for teachers and visitors.
-            </li>
-          </ul>
-        </article>
-
-        <article class="detail-card">
-          <span class="mini-label">Website Note</span>
-          <h2 class="card-title">Built to stay simple and reliable</h2>
-          <p>
-            Because this portfolio is made using pure HTML and CSS, the design remains lightweight, responsive, and easy to
-            host on GitHub Pages without relying on Jekyll or additional tools.
-          </p>
-          <ul class="chip-list">
-            <li class="chip">Pure HTML</li>
-            <li class="chip">Pure CSS</li>
-            <li class="chip">Static Hosting</li>
-            <li class="chip">Responsive Layout</li>
-            <li class="chip">Clean Navigation</li>
-          </ul>
-        </article>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>Contact page designed for a clean GitHub Pages presentation.</p>
-      <p><a class="link-inline" href="about.html">Read My Profile</a></p>
-      <p class="footer-contact">Instagram ID: muhammad mujtaba 303</p>
-      <p class="footer-contact">WhatsApp: 03219103454</p>
-    </footer>
-  </div>
-</body>
-</html>
+  <article class="detail-card" data-reveal>
+    <span class="mini-label">Website Note</span>
+    <h2 class="card-title">Built to stay simple and reliable</h2>
+    <p>
+      The public pages remain lightweight and easy to host on GitHub Pages, while the Jekyll structure now helps me
+      keep future blog posts organized with less repeated editing.
+    </p>
+    <ul class="chip-list">
+      <li class="chip">HTML</li>
+      <li class="chip">CSS</li>
+      <li class="chip">JavaScript</li>
+      <li class="chip">Jekyll</li>
+      <li class="chip">GitHub Pages</li>
+    </ul>
+  </article>
+</section>

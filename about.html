@@ -1,183 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about Muhammad Mujtaba, his academic background, growth mindset, and personal journey in Computer Engineering.">
-  <title>About | Muhammad Mujtaba</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand">
-        <a href="index.html">Muhammad Mujtaba</a>
-        <p>Computer Engineering Student</p>
-      </div>
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a class="active" href="about.html" aria-current="page">About</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="blog.html">Blog</a>
-      </nav>
-    </header>
+---
+title: About
+description: Learn about Muhammad Mujtaba, his academic background, growth mindset, and personal journey in Computer Engineering.
+footer_text: Personal profile and academic reflection by Muhammad Mujtaba.
+footer_link_label: Reach Out
+footer_link_url: /contact.html
+---
+{% assign profile = site.data.profile %}
+<section class="surface page-hero" data-reveal>
+  <span class="eyebrow">About Me</span>
+  <h1>My story is built on transition, struggle, and steady growth.</h1>
+  <p>
+    I am {{ profile.name }}, a {{ profile.field }} student whose journey became meaningful because it was not easy
+    from the beginning. The challenge of changing direction helped me become more patient, serious, and determined.
+  </p>
+</section>
 
-    <main class="page">
-      <section class="surface page-hero">
-        <span class="eyebrow">About Me</span>
-        <h1>My story is built on transition, struggle, and steady growth.</h1>
-        <p>
-          I am Muhammad Mujtaba, a Computer Engineering student whose journey became meaningful because it was not easy
-          from the beginning. The challenge of changing direction helped me become more patient, serious, and determined.
-        </p>
-      </section>
+<section class="surface grid-2">
+  <article class="detail-card" data-reveal>
+    <span class="mini-label">My Transition</span>
+    <h2 class="card-title">From a different background into engineering</h2>
+    <p>
+      Moving into Computer Engineering was one of the biggest turning points in my academic life. I entered a field
+      that felt unfamiliar, and that made the start of university both demanding and emotional. Still, that same
+      transition pushed me to become more adaptable and more serious about growth.
+    </p>
+    <ul class="detail-list">
+      <li>
+        <strong>New beginning</strong>
+        I had to accept that learning this field would require me to build understanding step by step.
+      </li>
+      <li>
+        <strong>Real adjustment</strong>
+        Technical subjects, unfamiliar concepts, and a new environment tested my patience.
+      </li>
+      <li>
+        <strong>Stronger mindset</strong>
+        Over time, those same difficulties helped me become more disciplined and focused.
+      </li>
+    </ul>
+  </article>
 
-      <section class="surface grid-2">
-        <article class="detail-card">
-          <span class="mini-label">My Transition</span>
-          <h2 class="card-title">From a different background into engineering</h2>
-          <p>
-            Moving into Computer Engineering was one of the biggest turning points in my academic life. I entered a field
-            that felt unfamiliar, and that made the start of university both demanding and emotional. Still, that same
-            transition pushed me to become more adaptable and more serious about growth.
-          </p>
-          <ul class="detail-list">
-            <li>
-              <strong>New beginning</strong>
-              I had to accept that learning this field would require me to build understanding step by step.
-            </li>
-            <li>
-              <strong>Real adjustment</strong>
-              Technical subjects, unfamiliar concepts, and a new environment tested my patience.
-            </li>
-            <li>
-              <strong>Stronger mindset</strong>
-              Over time, those same difficulties helped me become more disciplined and focused.
-            </li>
-          </ul>
-        </article>
+  <article class="detail-card" data-reveal>
+    <span class="mini-label">What I Value</span>
+    <h2 class="card-title">The lessons I want to carry forward</h2>
+    <p>
+      My experience taught me that confidence usually comes after struggle, not before it. That is why I now value
+      patience, consistency, responsibility, and the willingness to continue learning without giving up.
+    </p>
+    <ul class="chip-list">
+      {% for item in profile.values %}
+        <li class="chip">{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
 
-        <article class="detail-card">
-          <span class="mini-label">What I Value</span>
-          <h2 class="card-title">The lessons I want to carry forward</h2>
-          <p>
-            My experience taught me that confidence usually comes after struggle, not before it. That is why I now value
-            patience, consistency, responsibility, and the willingness to continue learning without giving up.
-          </p>
-          <ul class="chip-list">
-            <li class="chip">Consistency</li>
-            <li class="chip">Resilience</li>
-            <li class="chip">Self-Improvement</li>
-            <li class="chip">Academic Discipline</li>
-            <li class="chip">Future Focus</li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="surface">
-        <div class="story-band">
-          <span class="mini-label">Personal Insight</span>
-          <h2>My journey did not become valuable because it was easy. It became valuable because I kept moving through uncertainty.</h2>
-          <p>
-            Every difficult semester, every moment of doubt, and every small improvement shaped my confidence. That is
-            why this story is not only about studies. It is also about becoming mentally stronger with time.
-          </p>
-        </div>
-      </section>
-
-      <section class="surface">
-        <div class="section-header">
-          <div>
-            <span class="eyebrow">Journey Highlights</span>
-            <h2 class="section-heading">How my perspective changed over time</h2>
-          </div>
-          <p>
-            These milestones reflect the stages that shaped my thinking, my work ethic, and my relationship with learning.
-          </p>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span>Beginning</span>
-            <h3 class="card-title">Comfort before the real challenge</h3>
-            <p>
-              My early student life felt simple and relaxed, but that comfort ended once I began thinking seriously about
-              admissions, university expectations, and future responsibilities.
-            </p>
-          </article>
-          <article class="timeline-item">
-            <span>Struggle</span>
-            <h3 class="card-title">Confusion, pressure, and self-doubt</h3>
-            <p>
-              Admission difficulty, a new field, quizzes, assignments, and fear of failure made the first stage of
-              university emotionally heavy and academically demanding.
-            </p>
-          </article>
-          <article class="timeline-item">
-            <span>Recovery</span>
-            <h3 class="card-title">Small progress started changing me</h3>
-            <p>
-              Once I began handling pressure better and seeing some results, my confidence slowly improved and my mindset
-              became more stable.
-            </p>
-          </article>
-          <article class="timeline-item">
-            <span>Direction</span>
-            <h3 class="card-title">A clearer view of the future</h3>
-            <p>
-              Today I look at my studies with more maturity. I want to complete my degree well, strengthen my skills, and
-              prepare for a better professional future.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="surface grid-2">
-        <article class="detail-card">
-          <span class="mini-label">Current Focus</span>
-          <h2 class="card-title">What I want to improve further</h2>
-          <ul class="detail-list">
-            <li>
-              <strong>Technical confidence</strong>
-              I want to understand concepts more deeply and become more comfortable with engineering subjects.
-            </li>
-            <li>
-              <strong>Study discipline</strong>
-              Better planning and regular effort matter more to me now than last-minute pressure.
-            </li>
-            <li>
-              <strong>Practical growth</strong>
-              I want to keep learning skills that will help me in projects, internships, and future work.
-            </li>
-          </ul>
-        </article>
-
-        <article class="detail-card">
-          <span class="mini-label">Future Direction</span>
-          <h2 class="card-title">What I am aiming for</h2>
-          <p>
-            I want this degree to become a strong base for a meaningful career. My long-term goal is to keep growing into
-            a capable engineer who is confident, skilled, and ready for professional opportunities.
-          </p>
-          <ul class="chip-list">
-            <li class="chip">Better GPA</li>
-            <li class="chip">Skill Building</li>
-            <li class="chip">Professional Growth</li>
-            <li class="chip">Career Readiness</li>
-            <li class="chip">Confidence</li>
-          </ul>
-        </article>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>Personal profile and academic reflection by Muhammad Mujtaba.</p>
-      <p><a class="link-inline" href="contact.html">Reach Out</a></p>
-      <p class="footer-contact">Instagram ID: muhammad mujtaba 303</p>
-      <p class="footer-contact">WhatsApp: 03219103454</p>
-    </footer>
+<section class="surface" data-reveal>
+  <div class="story-band">
+    <span class="mini-label">Personal Insight</span>
+    <h2>My journey did not become valuable because it was easy. It became valuable because I kept moving through uncertainty.</h2>
+    <p>
+      Every difficult semester, every moment of doubt, and every small improvement shaped my confidence. That is
+      why this story is not only about studies. It is also about becoming mentally stronger with time.
+    </p>
   </div>
-</body>
-</html>
+</section>
+
+<section class="surface" data-reveal>
+  <div class="section-header">
+    <div>
+      <span class="eyebrow">Journey Highlights</span>
+      <h2 class="section-heading">How my perspective changed over time</h2>
+    </div>
+    <p>
+      These milestones reflect the stages that shaped my thinking, my work ethic, and my relationship with learning.
+    </p>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <span>Beginning</span>
+      <h3 class="card-title">Comfort before the real challenge</h3>
+      <p>
+        My early student life felt simple and relaxed, but that comfort ended once I began thinking seriously about
+        admissions, university expectations, and future responsibilities.
+      </p>
+    </article>
+    <article class="timeline-item">
+      <span>Struggle</span>
+      <h3 class="card-title">Confusion, pressure, and self-doubt</h3>
+      <p>
+        Admission difficulty, a new field, quizzes, assignments, and fear of failure made the first stage of
+        university emotionally heavy and academically demanding.
+      </p>
+    </article>
+    <article class="timeline-item">
+      <span>Recovery</span>
+      <h3 class="card-title">Small progress started changing me</h3>
+      <p>
+        Once I began handling pressure better and seeing some results, my confidence slowly improved and my mindset
+        became more stable.
+      </p>
+    </article>
+    <article class="timeline-item">
+      <span>Direction</span>
+      <h3 class="card-title">A clearer view of the future</h3>
+      <p>
+        Today I look at my studies with more maturity. I want to complete my degree well, strengthen my skills, and
+        prepare for a better professional future.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="surface grid-2">
+  <article class="detail-card" data-reveal>
+    <span class="mini-label">Current Focus</span>
+    <h2 class="card-title">What I want to improve further</h2>
+    <ul class="detail-list">
+      <li>
+        <strong>Technical confidence</strong>
+        I want to understand concepts more deeply and become more comfortable with engineering subjects.
+      </li>
+      <li>
+        <strong>Study discipline</strong>
+        Better planning and regular effort matter more to me now than last-minute pressure.
+      </li>
+      <li>
+        <strong>Practical growth</strong>
+        I want to keep learning skills that will help me in projects, internships, and future work.
+      </li>
+    </ul>
+  </article>
+
+  <article class="detail-card" data-reveal>
+    <span class="mini-label">Future Direction</span>
+    <h2 class="card-title">What I am aiming for</h2>
+    <p>
+      I want this degree to become a strong base for a meaningful career. My long-term goal is to keep growing into
+      a capable engineer who is confident, skilled, and ready for professional opportunities.
+    </p>
+    <ul class="chip-list">
+      {% for item in profile.future_goals %}
+        <li class="chip">{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
