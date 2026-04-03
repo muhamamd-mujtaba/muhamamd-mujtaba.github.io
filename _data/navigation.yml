@@ -1,0 +1,9 @@
+- label: Home
+  url: /
+- label: Blog
+  url: /blog.html
+- label: About
+  url: /about.html
+- label: Contact Us
+  url: /contact.html
+
