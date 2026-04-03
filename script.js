@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const revealItems = document.querySelectorAll("[data-reveal]");
   const filterButtons = document.querySelectorAll("[data-filter-group] .filter-chip");
   const postCards = document.querySelectorAll(".post-card[data-tags]");
+  const lightbox = document.querySelector("#image-lightbox");
+  const lightboxImage = lightbox ? lightbox.querySelector(".lightbox-image") : null;
+  const lightboxTriggers = document.querySelectorAll("[data-open-lightbox]");
+  const lightboxClosers = lightbox ? lightbox.querySelectorAll("[data-close-lightbox]") : [];
   const storageKey = "mujtaba-theme";
 
   const setTheme = (theme) => {
@@ -113,6 +117,47 @@ document.addEventListener("DOMContentLoaded", () => {
         button.classList.add("active");
         applyFilter(button.dataset.filter || "all");
       });
+    });
+  }
+
+  if (lightbox && lightboxImage && lightboxTriggers.length) {
+    const closeLightbox = () => {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.setAttribute("src", "");
+      lightboxImage.setAttribute("alt", "");
+      body.style.overflow = "";
+    };
+
+    const openLightbox = (src, alt) => {
+      lightboxImage.setAttribute("src", src);
+      lightboxImage.setAttribute("alt", alt || "Image preview");
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      body.style.overflow = "hidden";
+    };
+
+    lightboxTriggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        const source = trigger.dataset.lightboxSrc || trigger.querySelector("img")?.getAttribute("src");
+        const alt = trigger.dataset.lightboxAlt || trigger.querySelector("img")?.getAttribute("alt") || "";
+
+        if (!source) {
+          return;
+        }
+
+        openLightbox(source, alt);
+      });
+    });
+
+    lightboxClosers.forEach((closer) => {
+      closer.addEventListener("click", closeLightbox);
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+      }
     });
   }
 });
