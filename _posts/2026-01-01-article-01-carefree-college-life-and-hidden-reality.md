@@ -1,9 +1,10 @@
----
+﻿---
 title: "Carefree College Life and Hidden Reality"
 description: "Article 1 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A reflection on comfort, limited pressure, and the moment I realized that a much harder phase was waiting ahead."
 article_number: 1
 permalink: /posts/article-01.html
+image: /assets/article-01-visual.svg
 points:
   - "Enjoyed a relaxed routine with limited study pressure"
   - "Attended college only a few days a week"

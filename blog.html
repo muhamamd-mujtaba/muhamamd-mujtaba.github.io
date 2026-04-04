@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: Read 10 blog articles by Muhammad Mujtaba about his journey in Computer Engineering.
+description: Read blog articles by Muhammad Mujtaba about his journey in Computer Engineering.
 permalink: /blog.html
 footer_text: All articles are separated into individual pages for clean reading.
 footer_link_label: Back to Home
@@ -13,7 +13,8 @@ footer_link_url: /
   <h1>My Journey in Computer Engineering, organized as separate articles.</h1>
   <p>
     This page shows all posts together in one clean section. Each title opens on its own page so the complete
-    article can be read clearly without crowding the main website pages.
+    article can be read clearly without crowding the main website pages. Any new weekly post added in `_posts`
+    will automatically appear in this list.
   </p>
 </section>
 
@@ -99,13 +100,20 @@ footer_link_url: /
   </div>
 </section>
 
+<section class="surface helper-note" data-reveal>
+  <span class="eyebrow">Weekly Updates</span>
+  <p>
+    This blog page is connected with the Jekyll posts folder, so when a new article is uploaded later, its card
+    and link will appear here automatically.
+  </p>
+</section>
+
 <section class="blog-grid">
   {% for post in ordered_posts %}
-    {% assign article_code = post.article_number | plus: 100 | append: "" | remove_first: "1" %}
     <article class="surface post-card" data-reveal data-tags="{% for tag in post.tags %}{{ tag | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}">
       <span class="post-number">Article {{ post.article_number }}</span>
       <a class="post-visual-link" href="{{ post.url | relative_url }}" aria-label="Open Article {{ post.article_number }}: {{ post.title }}">
-        <img class="post-card-image" src="{{ '/assets/article-' | append: article_code | append: '-visual.svg' | relative_url }}" alt="Visual for Article {{ post.article_number }}: {{ post.title }}">
+        <img class="post-card-image" src="{{ post.image | default: '/assets/article-default-visual.svg' | relative_url }}" alt="Visual for Article {{ post.article_number }}: {{ post.title }}">
       </a>
       <h2>
         <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>

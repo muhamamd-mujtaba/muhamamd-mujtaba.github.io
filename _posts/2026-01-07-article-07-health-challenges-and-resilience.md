@@ -1,9 +1,10 @@
----
+﻿---
 title: "Health Challenges and Resilience"
 description: "Article 7 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "An unexpected illness during exams showed me how important patience and mental strength really are."
 article_number: 7
 permalink: /posts/article-07.html
+image: /assets/article-07-visual.svg
 points:
   - "Fell ill during mid exams"
   - "Missed two important papers"

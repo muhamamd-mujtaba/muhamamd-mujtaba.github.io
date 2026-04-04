@@ -1,9 +1,10 @@
----
+﻿---
 title: "Switching Fields: From Medical to Engineering"
 description: "Article 4 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A difficult transition that forced me to start from zero and slowly build comfort in a technical world."
 article_number: 4
 permalink: /posts/article-04.html
+image: /assets/article-04-visual.svg
 points:
   - "Shifted from medical to computer field"
   - "Faced difficulty in understanding technical subjects"

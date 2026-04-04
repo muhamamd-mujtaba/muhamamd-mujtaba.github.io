@@ -1,9 +1,10 @@
----
+﻿---
 title: "Growth, Confidence, and Future Goals"
 description: "Article 10 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "The final stage of the journey brings stronger focus, better understanding, and hope for the future."
 article_number: 10
 permalink: /posts/article-10.html
+image: /assets/article-10-visual.svg
 points:
   - "Returned to physical classes with motivation"
   - "Found studies more manageable"

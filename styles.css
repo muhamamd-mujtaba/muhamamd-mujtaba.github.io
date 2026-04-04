@@ -1020,6 +1020,12 @@ button.filter-chip.active {
   display: none;
 }
 
+.helper-note p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
 @media (max-width: 960px) {
   .hero,
   .article-layout,

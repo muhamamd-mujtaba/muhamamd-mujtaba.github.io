@@ -1,9 +1,10 @@
----
+﻿---
 title: "First Semester: Fear and Self-Doubt"
 description: "Article 5 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A semester defined by anxiety, internal pressure, and the struggle to believe in my own potential."
 article_number: 5
 permalink: /posts/article-05.html
+image: /assets/article-05-visual.svg
 points:
   - "Constant fear of failure in every subject"
   - "Felt emotionally stressed and demotivated"
