@@ -516,6 +516,12 @@ img {
   align-items: flex-start;
 }
 
+.meta-list li.meta-group-title {
+  display: block;
+  padding: 4px 0 2px;
+  border-bottom: 0;
+}
+
 .meta-list li:last-child,
 .contact-list li:last-child {
   padding-bottom: 0;
@@ -540,6 +546,14 @@ img {
 .skill-value {
   max-width: 68%;
   line-height: 1.7;
+}
+
+.meta-section {
+  display: inline-block;
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ink);
 }
 
 .tag-row {
