@@ -1,7 +1,11 @@
 <footer class="site-footer">
-  <p>{{ page.footer_text | default: "Personal portfolio of Muhammad Mujtaba." }}</p>
-  {% if page.footer_link_url and page.footer_link_label %}
-    <p><a class="link-inline" href="{{ page.footer_link_url | relative_url }}">{{ page.footer_link_label }}</a></p>
-  {% endif %}
+  <p class="footer-brand">&copy; {{ site.time | date: "%Y" }} {{ site.data.profile.name }}</p>
+  <nav class="footer-links" aria-label="Footer">
+    {% if site.data.profile.github_url %}
+      <a href="{{ site.data.profile.github_url }}" target="_blank" rel="noreferrer">GitHub</a>
+    {% endif %}
+    {% if site.data.profile.instagram_url %}
+      <a href="{{ site.data.profile.instagram_url }}" target="_blank" rel="noreferrer">Instagram</a>
+    {% endif %}
+  </nav>
 </footer>
-
