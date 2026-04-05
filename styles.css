@@ -512,6 +512,10 @@ img {
   border-bottom: 1px solid var(--soft-border);
 }
 
+.meta-list li.meta-multiline {
+  align-items: flex-start;
+}
+
 .meta-list li:last-child,
 .contact-list li:last-child {
   padding-bottom: 0;
@@ -531,6 +535,11 @@ img {
   text-align: right;
   color: var(--ink);
   font-weight: 600;
+}
+
+.skill-value {
+  max-width: 68%;
+  line-height: 1.7;
 }
 
 .tag-row {
