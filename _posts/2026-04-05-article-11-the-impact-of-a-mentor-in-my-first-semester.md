@@ -1,10 +1,10 @@
 ---
 title: "The Impact of a Mentor in My First Semester"
-description: "Article 11 of Muhammad Mujtaba's journey in Computer Engineering."
+description: "Article 8 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A reflection on how strict guidance, advanced projects, and academic pressure under Dr. Bilal helped shape my technical mindset."
-article_number: 11
-permalink: /posts/article-11.html
-image: /assets/article-11-visual.svg
+article_number: 8
+permalink: /posts/article-08.html
+image: /assets/article-08-visual.svg
 points:
   - "Learned a professional mindset from my programming teacher"
   - "Worked on challenging projects beyond the basic syllabus"
@@ -13,7 +13,7 @@ tags:
   - Academics
   - Growth
   - Mentorship
-footer_text: "Article 11 from My Journey in Computer Engineering."
+footer_text: "Article 8 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html
 ---

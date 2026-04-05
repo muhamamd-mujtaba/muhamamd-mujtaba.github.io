@@ -1,10 +1,10 @@
 ﻿---
 title: "First Achievement: A Confidence Booster"
-description: "Article 8 of Muhammad Mujtaba's journey in Computer Engineering."
+description: "Article 9 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A modest GPA became an important reminder that effort can still produce meaningful progress."
-article_number: 8
-permalink: /posts/article-08.html
-image: /assets/article-08-visual.svg
+article_number: 9
+permalink: /posts/article-09.html
+image: /assets/article-09-visual.svg
 points:
   - "Achieved around 2.7 GPA"
   - "Realized effort leads to results"
@@ -12,7 +12,7 @@ points:
 tags:
   - Growth
   - Confidence
-footer_text: "Article 8 from My Journey in Computer Engineering."
+footer_text: "Article 9 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html
 ---
