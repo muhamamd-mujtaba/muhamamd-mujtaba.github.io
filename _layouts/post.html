@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+{% assign ordered_posts = site.posts | sort: "article_number" %}
+{% assign current_number = page.article_number | plus: 0 %}
+{% assign next_post = nil %}
+{% for candidate in ordered_posts %}
+  {% assign candidate_number = candidate.article_number | plus: 0 %}
+  {% if candidate_number > current_number %}
+    {% assign next_post = candidate %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 <article class="surface article-page">
   <div class="article-header">
     <span class="eyebrow">Article {{ page.article_number }}</span>
@@ -39,6 +49,10 @@ layout: default
   {% endif %}
 
   <div class="article-actions">
-    <a class="button-secondary" href="{{ '/blog.html' | relative_url }}">Back to Blog</a>
+    {% if next_post %}
+      <a class="button-secondary" href="{{ next_post.url | relative_url }}">Read Next Blog</a>
+    {% else %}
+      <a class="button-secondary" href="{{ '/blog.html' | relative_url }}">View All Blogs</a>
+    {% endif %}
   </div>
 </article>
