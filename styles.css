@@ -543,6 +543,17 @@ img {
   font-weight: 600;
 }
 
+.contact-inline-link {
+  color: var(--ink);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.contact-inline-link:hover,
+.contact-inline-link:focus-visible {
+  color: var(--accent);
+}
+
 .skill-value {
   max-width: 68%;
   line-height: 1.7;
