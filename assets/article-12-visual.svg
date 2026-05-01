@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title>Second Semester Mids</title>
+  <desc>Online preparation, exam pressure, and sincere hard work during the second semester</desc>
+  <defs>
+    <linearGradient id="bg-12" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef4ff"/>
+      <stop offset="100%" stop-color="#9fc0ff"/>
+    </linearGradient>
+    <linearGradient id="panel-12" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.94"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.72"/>
+    </linearGradient>
+    <filter id="shadow-12" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#142238" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="44" fill="url(#bg-12)"/>
+  <circle cx="1230" cy="124" r="168" fill="#ffffff" opacity="0.18"/>
+  <circle cx="186" cy="748" r="188" fill="#ffffff" opacity="0.10"/>
+  <rect x="88" y="94" width="1224" height="712" rx="42" fill="url(#panel-12)" filter="url(#shadow-12)"/>
+  <rect x="140" y="156" width="190" height="52" rx="26" fill="#2f5aa8" opacity="0.12"/>
+  <text x="235" y="189" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#2f5aa8">Article 12</text>
+  <text x="140" y="296" font-family="Georgia, serif" font-size="62" font-weight="700" fill="#12243b">Second Semester Mids</text>
+  <text x="140" y="356" font-family="Arial, sans-serif" font-size="29" fill="#55697f">Online preparation, heavy syllabus, and hard work</text>
+  <rect x="140" y="420" width="460" height="222" rx="32" fill="#ffffff" opacity="0.72"/>
+  <text x="178" y="478" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#2f5aa8">Journey Reflection</text>
+  <text x="178" y="530" font-family="Arial, sans-serif" font-size="24" fill="#465b6e">A visual marker for pressure,</text>
+  <text x="178" y="568" font-family="Arial, sans-serif" font-size="24" fill="#465b6e">online study, and steady effort.</text>
+  <text x="178" y="620" font-family="Arial, sans-serif" font-size="21" fill="#7a8c9a">Click the article card to read the full story.</text>
+  <g>
+    <rect x="820" y="228" width="310" height="210" rx="26" fill="#ffffff" stroke="#2f5aa8" stroke-width="10"/>
+    <rect x="860" y="272" width="228" height="18" rx="9" fill="#d8e5ff"/>
+    <rect x="860" y="314" width="176" height="18" rx="9" fill="#d8e5ff"/>
+    <rect x="860" y="356" width="206" height="18" rx="9" fill="#d8e5ff"/>
+    <circle cx="1090" cy="248" r="20" fill="#ffcf70"/>
+    <path d="M740 590 C812 520 846 474 888 432" fill="none" stroke="#2f5aa8" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="736" cy="592" r="28" fill="#ffcf70"/>
+    <circle cx="888" cy="432" r="24" fill="#ffffff" stroke="#2f5aa8" stroke-width="10"/>
+    <g transform="translate(958 490)">
+      <circle cx="120" cy="120" r="96" fill="#f4f8ff" stroke="#2f5aa8" stroke-width="10"/>
+      <line x1="120" y1="120" x2="120" y2="64" stroke="#2f5aa8" stroke-width="10" stroke-linecap="round"/>
+      <line x1="120" y1="120" x2="164" y2="146" stroke="#ff9e53" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="120" cy="120" r="10" fill="#2f5aa8"/>
+    </g>
+  </g>
+</svg>
