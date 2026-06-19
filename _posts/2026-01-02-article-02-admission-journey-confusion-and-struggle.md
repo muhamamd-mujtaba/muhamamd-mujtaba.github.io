@@ -4,7 +4,7 @@ description: "Article 2 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "An honest account of rejection, uncertainty, and the emotional pressure that came before finding direction."
 article_number: 2
 permalink: /posts/article-02.html
-image: /assets/article-02-visual.svg
+image: /assets/article-02-admission-journey.png
 points:
   - "Applied to multiple universities before result announcement"
   - "Faced low entry test scores and rejection"
