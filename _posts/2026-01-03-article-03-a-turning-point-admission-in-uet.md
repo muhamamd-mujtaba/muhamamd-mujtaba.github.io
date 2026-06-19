@@ -4,7 +4,7 @@ description: "Article 3 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "The end of uncertainty and the beginning of a new chapter that brought both excitement and nervousness."
 article_number: 3
 permalink: /posts/article-03.html
-image: /assets/article-03-visual.svg
+image: /assets/article-03-uet-admission.png
 points:
   - "Finally secured admission in Computer Engineering"
   - "Felt both happy and uncertain"
