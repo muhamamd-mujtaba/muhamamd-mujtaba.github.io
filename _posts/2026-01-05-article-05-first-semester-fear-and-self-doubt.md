@@ -1,12 +1,7 @@
 ---
 title: "Fear, Failure, and a Lesson from Dr. Bilal Ahmad"
 description: "Article 5 of Muhammad Mujtaba's journey in Computer Engineering."
-summary: "A semester defined by fear, comparison, and constant self-doubt about whether I belonged in Computer Engineering.
-Programming Fundamentals, taught by Dr. Bilal Ahmad, became the subject where that fear felt most intense.
-Watching classmates learn with apparent ease made my own struggle feel heavier and more personal than it really was.
-A lecture from Dr. Bilal Ahmad on how machine learning models improve through repeated failure unexpectedly reshaped how I saw my own mistakes.
-His perspective on iterative growth, drawn from his own research training models on real-world datasets, became one of the most personal lessons of that semester.
-It taught me that belief in oneself does not arrive all at once, but grows slowly through patience, struggle, and the choice to keep moving forward."
+summary: "My first semester was filled with fear and self-doubt. A lesson from Dr. Bilal Ahmad on machine learning changed how I viewed failure. It taught me that growth comes through persistence and continuous learning."
 article_number: 5
 permalink: /posts/article-05.html
 image: /assets/article-05-first-semester.png
