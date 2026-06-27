@@ -5,13 +5,13 @@ summary: "An unexpected illness during exams showed me how important patience an
 article_number: 7
 permalink: /posts/article-07.html
 image: /assets/article-07-visual.svg
-points:
-  - "Fell ill during mid exams"
-  - "Missed two important papers"
-  - "Recovered and completed exams later"
 tags:
   - Challenges
   - Resilience
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 7 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html

@@ -25,19 +25,17 @@ layout: default
     <figcaption>A related visual that highlights the main theme of this article.</figcaption>
   </figure>
 
-  {% if page.points %}
-    <section class="article-points">
-      <h2>Key Points</h2>
-      <ul class="point-list">
-        {% for point in page.points %}
-          <li>{{ point }}</li>
-        {% endfor %}
-      </ul>
-    </section>
+  {% if page.hashtags %}
+    <div class="hashtag-row hashtag-row-front">
+      {% for hashtag in page.hashtags %}
+        <span>{{ hashtag }}</span>
+      {% endfor %}
+    </div>
   {% endif %}
 
   <div class="article-body">
     {{ content }}
+    {% include semester-expanded-reflections.html %}
   </div>
 
   {% if page.tags %}

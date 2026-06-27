@@ -1,0 +1,45 @@
+---
+title: First Semester
+description: Article folder for the first semester part of Muhammad Mujtaba's Computer Engineering journey.
+permalink: /first-semester.html
+footer_text: First semester articles from my Computer Engineering journey.
+footer_link_label: Back to Blog
+footer_link_url: /blog.html
+---
+{% assign ordered_posts = site.posts | sort: "article_number" %}
+<section class="surface page-hero" data-reveal>
+  <span class="eyebrow">Article Folder</span>
+  <h1>First Semester</h1>
+  <p>
+    This folder collects the first semester articles, from fear and self-doubt to assignments, health challenges,
+    mentorship, and the first small achievement that helped me continue.
+  </p>
+</section>
+
+<section class="blog-grid">
+  {% for post in ordered_posts %}
+    {% assign post_number = post.article_number | plus: 0 %}
+    {% if post_number >= 5 and post_number <= 9 %}
+      <article class="surface post-card" data-reveal>
+        <span class="post-number">Article {{ post.article_number }}</span>
+        <a class="post-visual-link" href="{{ post.url | relative_url }}" aria-label="Open Article {{ post.article_number }}: {{ post.title }}">
+          <img class="post-card-image" src="{{ post.image | default: '/assets/article-default-visual.svg' | relative_url }}" alt="Visual for Article {{ post.article_number }}: {{ post.title }}">
+        </a>
+        <h2>
+          <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.summary }}</p>
+        {% if post.hashtags %}
+          <div class="hashtag-row">
+            {% for hashtag in post.hashtags %}
+              <span>{{ hashtag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        <div class="post-link-row">
+          <a class="link-inline" href="{{ post.url | relative_url }}">Open this article</a>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+</section>

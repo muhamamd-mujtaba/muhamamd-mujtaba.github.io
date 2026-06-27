@@ -5,14 +5,14 @@ summary: "A reflection on how fast the second semester moved, how difficult onli
 article_number: 12
 permalink: /posts/article-12.html
 image: /assets/article-12-visual.svg
-points:
-  - "The second semester passed very quickly and preparation time felt short"
-  - "Online classes made mid exam study difficult and the syllabus felt heavy"
-  - "Even when the result was not as expected, hard work still built confidence"
 tags:
   - Academics
   - Growth
   - Pressure
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 12 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html

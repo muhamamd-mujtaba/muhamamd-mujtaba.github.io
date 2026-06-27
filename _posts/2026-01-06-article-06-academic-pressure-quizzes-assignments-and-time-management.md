@@ -5,13 +5,13 @@ summary: "A phase where frequent quizzes and assignments taught me that discipli
 article_number: 6
 permalink: /posts/article-06.html
 image: /assets/article-06-visual.svg
-points:
-  - "Faced frequent quizzes throughout semester"
-  - "Had many assignments with limited time"
-  - "Learned importance of time management"
 tags:
   - Academics
   - Growth
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 6 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html

@@ -5,13 +5,13 @@ summary: "A modest GPA became an important reminder that effort can still produc
 article_number: 9
 permalink: /posts/article-09.html
 image: /assets/article-09-visual.svg
-points:
-  - "Achieved around 2.7 GPA"
-  - "Realized effort leads to results"
-  - "Gained confidence for future"
 tags:
   - Growth
   - Confidence
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 9 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html

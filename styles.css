@@ -946,6 +946,46 @@ button.filter-chip.active {
   font-weight: 700;
 }
 
+.folder-visual-blue .folder-tab {
+  background: #8cc7d8;
+}
+
+.folder-visual-blue .folder-body {
+  background: linear-gradient(135deg, #6aaec6, #1e5c92);
+}
+
+.folder-visual-green .folder-tab {
+  background: #b9d99b;
+}
+
+.folder-visual-green .folder-body {
+  background: linear-gradient(135deg, #8bbf73, #39745b);
+}
+
+.hashtag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.hashtag-row-front {
+  margin: 0 0 26px;
+}
+
+.hashtag-row span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--soft-border);
+  background: var(--card-bg);
+  color: var(--accent-dark);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
 .post-visual-link {
   display: block;
   overflow: hidden;

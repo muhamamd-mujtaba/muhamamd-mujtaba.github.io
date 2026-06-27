@@ -5,13 +5,13 @@ summary: "The final stage of the journey brings stronger focus, better understan
 article_number: 11
 permalink: /posts/article-11.html
 image: /assets/article-11-visual.svg
-points:
-  - "Returned to physical classes with motivation"
-  - "Found studies more manageable"
-  - "Now hopeful about career and job"
 tags:
   - Growth
   - Future
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 11 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html

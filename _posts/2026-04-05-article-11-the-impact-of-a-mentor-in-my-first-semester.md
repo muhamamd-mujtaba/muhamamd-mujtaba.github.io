@@ -5,14 +5,14 @@ summary: "A reflection on how strict guidance, advanced projects, and academic p
 article_number: 8
 permalink: /posts/article-08.html
 image: /assets/article-08-visual.svg
-points:
-  - "Learned a professional mindset from my programming teacher"
-  - "Worked on challenging projects beyond the basic syllabus"
-  - "Experienced heavy academic pressure but achieved personal growth"
 tags:
   - Academics
   - Growth
   - Mentorship
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 8 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html

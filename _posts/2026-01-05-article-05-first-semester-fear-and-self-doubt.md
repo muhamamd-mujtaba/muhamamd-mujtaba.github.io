@@ -11,6 +11,10 @@ article_number: 5
 permalink: /posts/article-05.html
 image: /assets/article-05-first-semester.png
 tags: [Academics, Challenges]
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 5 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html

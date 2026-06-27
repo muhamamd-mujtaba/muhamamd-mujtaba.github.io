@@ -25,7 +25,7 @@ footer_link_url: /
       <h2 class="section-heading">Structured exactly for clear reading</h2>
     </div>
     <p>
-      The journey is arranged professionally with separate articles, key points for each post, and full reflections on
+      The journey is arranged professionally with semester folders, paragraph-based posts, and full reflections on
       dedicated pages for easy reading.
     </p>
   </div>
@@ -37,8 +37,8 @@ footer_link_url: /
     </article>
     <article class="info-card stat-card">
       <span class="stat-value">3</span>
-      <p class="stat-label">Key Points</p>
-      <p>Every article card includes three quick highlights before the full reflection page.</p>
+      <p class="stat-label">Folders</p>
+      <p>Articles are grouped into folders so each stage of the journey is easier to browse.</p>
     </article>
     <article class="info-card stat-card">
       <span class="stat-value">1</span>
@@ -124,36 +124,32 @@ footer_link_url: /
     </p>
     <span class="link-inline">Open folder</span>
   </a>
-  {% for post in ordered_posts %}
-    {% assign post_number = post.article_number | plus: 0 %}
-    {% if post_number > 4 %}
-    <article class="surface post-card" data-reveal data-tags="{% for tag in post.tags %}{{ tag | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}">
-      <span class="post-number">Article {{ post.article_number }}</span>
-      <a class="post-visual-link" href="{{ post.url | relative_url }}" aria-label="Open Article {{ post.article_number }}: {{ post.title }}">
-        <img class="post-card-image" src="{{ post.image | default: '/assets/article-default-visual.svg' | relative_url }}" alt="Visual for Article {{ post.article_number }}: {{ post.title }}">
-      </a>
-      <h2>
-        <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-      {% if post.points %}
-        <ul class="point-list">
-          {% for point in post.points %}
-            <li>{{ point }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-      <p>{{ post.summary }}</p>
-      {% if post.tags %}
-        <div class="tag-row post-tag-row">
-          {% for tag in post.tags %}
-            <span class="filter-chip static-chip">{{ tag }}</span>
-          {% endfor %}
-        </div>
-      {% endif %}
-      <div class="post-link-row">
-        <a class="link-inline" href="{{ post.url | relative_url }}">Read full article</a>
-      </div>
-    </article>
-    {% endif %}
-  {% endfor %}
+  <a class="surface post-card folder-card" href="{{ '/first-semester.html' | relative_url }}" data-reveal aria-label="Open folder: First Semester">
+    <span class="post-number">Folder</span>
+    <div class="folder-visual folder-visual-blue" aria-hidden="true">
+      <span class="folder-tab"></span>
+      <span class="folder-body">
+        <span class="folder-count">5</span>
+      </span>
+    </div>
+    <h2>First Semester</h2>
+    <p>
+      Articles 5 to 9 are grouped here, covering fear, assignments, health pressure, mentorship, and first achievement.
+    </p>
+    <span class="link-inline">Open folder</span>
+  </a>
+  <a class="surface post-card folder-card" href="{{ '/second-semester.html' | relative_url }}" data-reveal aria-label="Open folder: Second Semester">
+    <span class="post-number">Folder</span>
+    <div class="folder-visual folder-visual-green" aria-hidden="true">
+      <span class="folder-tab"></span>
+      <span class="folder-body">
+        <span class="folder-count">3</span>
+      </span>
+    </div>
+    <h2>Second Semester</h2>
+    <p>
+      Articles 10 to 12 are grouped here, covering renewed confidence, disruptions, mid pressure, and future goals.
+    </p>
+    <span class="link-inline">Open folder</span>
+  </a>
 </section>

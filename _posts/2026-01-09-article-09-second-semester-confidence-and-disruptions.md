@@ -5,13 +5,13 @@ summary: "A semester that started with more confidence but was interrupted by cl
 article_number: 10
 permalink: /posts/article-10.html
 image: /assets/article-10-visual.svg
-points:
-  - "Started feeling confident in abilities"
-  - "Universities closed due to external issues"
-  - "Faced difficulty during online classes and Ramadan"
 tags:
   - Academics
   - Challenges
+hashtags:
+  - "#MLwithDrBilalAhmad"
+  - "#DrBilalAhmad"
+  - "#MLProject"
 footer_text: "Article 10 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html
