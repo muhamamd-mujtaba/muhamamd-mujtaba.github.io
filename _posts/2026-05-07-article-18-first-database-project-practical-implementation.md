@@ -4,7 +4,7 @@ description: "Article 18 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "My first database project helped me convert theory into practice by designing tables, applying normalization, writing SQL, and solving real errors."
 article_number: 18
 permalink: /posts/article-18.html
-image: /assets/article-18-story.svg
+image: /assets/article-18-real.jpg
 tags: [Academics, Database Systems, Second Semester]
 hashtags:
   - "#MLwithDrBilalAhmad"

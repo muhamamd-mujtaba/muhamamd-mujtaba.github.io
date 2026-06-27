@@ -1,10 +1,10 @@
-﻿---
+---
 title: "The Impact of a Mentor in My First Semester"
 description: "Article 8 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A reflection on how strict guidance, advanced projects, and academic pressure under Dr. Bilal helped shape my technical mindset."
 article_number: 8
 permalink: /posts/article-08.html
-image: /assets/article-08-story.svg
+image: /assets/article-08-real.jpg
 tags:
   - Academics
   - Growth

@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Second Semester Mids: Pressure, Preparation, and Hard Work"
 description: "Article 12 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A reflection on how fast the second semester moved, how difficult online preparation felt, and how sincere effort during mids still strengthened my mindset."
 article_number: 12
 permalink: /posts/article-12.html
-image: /assets/article-12-story.svg
+image: /assets/article-12-real.jpg
 tags:
   - Academics
   - Growth

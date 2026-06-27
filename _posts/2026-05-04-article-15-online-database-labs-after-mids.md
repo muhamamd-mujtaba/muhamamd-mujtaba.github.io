@@ -4,7 +4,7 @@ description: "Article 15 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "Online database labs after mids helped me practice SQL, implementation, database design, and technical problem solving even outside the physical classroom."
 article_number: 15
 permalink: /posts/article-15.html
-image: /assets/article-15-story.svg
+image: /assets/article-15-real.jpg
 tags: [Academics, Database Systems, Second Semester]
 hashtags:
   - "#MLwithDrBilalAhmad"

@@ -4,7 +4,7 @@ description: "Article 16 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "After learning from my mid exam mistakes, I prepared consistently for the final Database Systems exam and understood the value of regular practice."
 article_number: 16
 permalink: /posts/article-16.html
-image: /assets/article-16-story.svg
+image: /assets/article-16-real.jpg
 tags: [Academics, Database Systems, Second Semester]
 hashtags:
   - "#MLwithDrBilalAhmad"

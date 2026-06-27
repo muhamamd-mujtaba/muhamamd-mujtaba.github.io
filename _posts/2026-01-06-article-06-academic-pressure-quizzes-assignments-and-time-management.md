@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Academic Pressure: Quizzes, Assignments, and Time Management"
 description: "Article 6 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A phase where frequent quizzes and assignments taught me that discipline matters as much as effort."
 article_number: 6
 permalink: /posts/article-06.html
-image: /assets/article-06-story.svg
+image: /assets/article-06-real.jpg
 tags:
   - Academics
   - Growth

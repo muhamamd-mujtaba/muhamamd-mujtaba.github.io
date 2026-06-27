@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Second Semester: Confidence and Disruptions"
 description: "Article 10 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A semester that started with more confidence but was interrupted by closures, online classes, and Ramadan."
 article_number: 10
 permalink: /posts/article-10.html
-image: /assets/article-10-story.svg
+image: /assets/article-10-real.jpg
 tags:
   - Academics
   - Challenges

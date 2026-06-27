@@ -4,7 +4,7 @@ description: "Article 17 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "Normalization changed my thinking about database design by teaching me how to reduce redundancy, organize data, and design cleaner systems."
 article_number: 17
 permalink: /posts/article-17.html
-image: /assets/article-17-story.svg
+image: /assets/article-17-real.jpg
 tags: [Academics, Database Systems, Second Semester]
 hashtags:
   - "#MLwithDrBilalAhmad"

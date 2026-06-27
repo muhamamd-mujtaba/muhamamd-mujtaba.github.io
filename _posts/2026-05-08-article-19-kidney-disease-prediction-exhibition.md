@@ -4,7 +4,7 @@ description: "Article 19 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "The department exhibition gave me a chance to present our Kidney Disease Prediction System and connect ML, database knowledge, APIs, and teamwork."
 article_number: 19
 permalink: /posts/article-19.html
-image: /assets/article-19-story.svg
+image: /assets/article-19-real.jpg
 tags: [Academics, Database Systems, Second Semester]
 hashtags:
   - "#MLwithDrBilalAhmad"
