@@ -346,6 +346,14 @@ img {
   color: var(--muted);
 }
 
+.hero-copy .mentor-lead {
+  max-width: 680px;
+  margin-top: -6px;
+  color: #0057d9;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
 .cta-group {
   display: flex;
   flex-wrap: wrap;
