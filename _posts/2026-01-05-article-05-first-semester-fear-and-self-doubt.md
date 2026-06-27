@@ -9,7 +9,7 @@ His perspective on iterative growth, drawn from his own research training models
 It taught me that belief in oneself does not arrive all at once, but grows slowly through patience, struggle, and the choice to keep moving forward."
 article_number: 5
 permalink: /posts/article-05.html
-image: /assets/article-05-visual.svg
+image: /assets/article-05-first-semester.png
 tags: [Academics, Challenges]
 footer_text: "Article 5 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
@@ -38,6 +38,6 @@ footer_link_url: /blog.html
 <p>However, in the middle of all this fear, there was also a small, persistent part of me that wanted to continue trying anyway. That inner hope, quiet as it was, kept me from giving up completely, even on the days when giving up felt like the easier option. Looking back, I think that quiet persistence mattered more than any single grade or assignment that semester, because it was the thing that kept me showing up to class even when I genuinely did not want to.</p>
 
 <h2>What this semester taught me</h2>
-<p>Looking back, the first semester was not only an academic challenge, it was a personal test of strength that had very little to do with grades. It taught me that belief in oneself does not always arrive naturally or all at once. Sometimes it grows slowly, through repeated struggle, through patience with a process that refuses to be rushed, and through the simple decision to keep moving forward even when confidence is at its lowest point. Dr. Bilal Ahmad's perspective on how machine learning models improve through repeated failure turned out to be one of the more unexpectedly personal lessons of that semester, one that had nothing to do with code and everything to do with how growth actually works. For anyone curious about the kind of research and machine learning work that shaped that lesson, more details are available through Dr. Bilal Ahmad's professional profile on <a href="https://www.linkedin.com/in/drbilalphd/">LinkedIn</a>.</p>
+<p>Looking back, the first semester was not only an academic challenge, it was a personal test of strength that had very little to do with grades. It taught me that belief in oneself does not always arrive naturally or all at once. Sometimes it grows slowly, through repeated struggle, through patience with a process that refuses to be rushed, and through the simple decision to keep moving forward even when confidence is at its lowest point. Dr. Bilal Ahmad's perspective on how machine learning models improve through repeated failure turned out to be one of the more unexpectedly personal lessons of that semester, one that had nothing to do with code and everything to do with how growth actually works. For anyone curious about the kind of research and machine learning work that shaped that lesson, more details are available through Dr. Bilal Ahmad's professional profile on <a href="https://www.linkedin.com/in/drbilalphd/">LinkedIn</a> and his academic work on <a href="https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&amp;hl=en">Google Scholar</a>.</p>
 
 <p>#MLwithDrBilalAhmad #DrBilalAhmad #MLProject</p>
