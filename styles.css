@@ -881,6 +881,71 @@ button.filter-chip.active {
   align-content: start;
 }
 
+.folder-card {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.folder-card:hover h2,
+.folder-card:focus-visible h2 {
+  color: var(--accent);
+}
+
+.folder-card:focus-visible {
+  outline: 3px solid rgba(30, 92, 146, 0.22);
+  outline-offset: 4px;
+}
+
+.folder-visual {
+  position: relative;
+  min-height: 210px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid var(--soft-border);
+  background:
+    radial-gradient(circle at 22% 24%, rgba(223, 107, 63, 0.22), transparent 28%),
+    radial-gradient(circle at 78% 18%, rgba(30, 92, 146, 0.18), transparent 30%),
+    linear-gradient(135deg, rgba(255, 250, 246, 0.92), rgba(226, 239, 247, 0.82));
+}
+
+.folder-tab {
+  position: absolute;
+  top: 48px;
+  left: 38px;
+  width: 185px;
+  height: 54px;
+  border-radius: 18px 18px 0 0;
+  background: #f6c37b;
+}
+
+.folder-body {
+  position: absolute;
+  right: 34px;
+  bottom: 32px;
+  left: 34px;
+  height: 128px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #f2a65f, #df6b3f);
+  box-shadow: 0 20px 38px rgba(87, 51, 31, 0.2);
+}
+
+.folder-count {
+  position: absolute;
+  right: 28px;
+  bottom: 22px;
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #fffaf6;
+  color: var(--accent-dark);
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+
 .post-visual-link {
   display: block;
   overflow: hidden;

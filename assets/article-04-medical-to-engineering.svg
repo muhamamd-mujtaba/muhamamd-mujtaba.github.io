@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">From medical background to computer engineering</title>
+  <desc id="desc">A student desk scene showing medical study notes changing into programming and engineering work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="0.52" stop-color="#e9f3f8"/>
+      <stop offset="1" stop-color="#f3f0ff"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#df6b3f"/>
+      <stop offset="1" stop-color="#1e5c92"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#213547" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="185" cy="130" r="96" fill="#f6c37b" opacity="0.45"/>
+  <circle cx="1030" cy="760" r="120" fill="#8cc7d8" opacity="0.28"/>
+  <circle cx="1010" cy="150" r="70" fill="#b9a7ff" opacity="0.25"/>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="250" width="350" height="410" rx="34" fill="#fffaf6" stroke="#eadfce" stroke-width="4"/>
+    <rect x="150" y="310" width="270" height="28" rx="14" fill="#df6b3f" opacity="0.2"/>
+    <rect x="150" y="370" width="230" height="20" rx="10" fill="#6d7785" opacity="0.22"/>
+    <rect x="150" y="414" width="250" height="20" rx="10" fill="#6d7785" opacity="0.18"/>
+    <rect x="150" y="458" width="190" height="20" rx="10" fill="#6d7785" opacity="0.18"/>
+    <circle cx="280" cy="555" r="70" fill="#ffe2d2"/>
+    <path d="M280 500v110M225 555h110" stroke="#df6b3f" stroke-width="24" stroke-linecap="round"/>
+    <path d="M370 270c30 34 38 72 24 112-14 42-49 68-96 78" fill="none" stroke="#1e5c92" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="296" cy="462" r="16" fill="#1e5c92"/>
+  </g>
+
+  <path d="M480 460C555 370 650 370 720 460" fill="none" stroke="url(#path)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M700 414l44 48-54 36" fill="none" stroke="#1e5c92" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#30445b">Starting From Zero</text>
+
+  <g filter="url(#shadow)">
+    <rect x="735" y="285" width="360" height="270" rx="30" fill="#172235"/>
+    <rect x="768" y="320" width="294" height="190" rx="18" fill="#f6fbff"/>
+    <path d="M690 555h450l-55 88H745z" fill="#d7e5ef"/>
+    <path d="M802 372l-46 44 46 44M1028 372l46 44-46 44" fill="none" stroke="#1e5c92" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M930 358l-42 118" stroke="#df6b3f" stroke-width="16" stroke-linecap="round"/>
+    <rect x="830" y="580" width="170" height="20" rx="10" fill="#8494a8" opacity="0.45"/>
+    <rect x="770" y="680" width="300" height="42" rx="21" fill="#fffaf6"/>
+    <circle cx="815" cy="701" r="11" fill="#df6b3f"/>
+    <rect x="845" y="692" width="176" height="18" rx="9" fill="#6d7785" opacity="0.24"/>
+  </g>
+</svg>

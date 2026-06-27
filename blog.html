@@ -109,7 +109,24 @@ footer_link_url: /
 </section>
 
 <section class="blog-grid">
+  <a class="surface post-card folder-card" href="{{ '/life-before-the-first-line-of-code.html' | relative_url }}" data-reveal aria-label="Open folder: Life Before the First Line of Code">
+    <span class="post-number">Folder</span>
+    <div class="folder-visual" aria-hidden="true">
+      <span class="folder-tab"></span>
+      <span class="folder-body">
+        <span class="folder-count">4</span>
+      </span>
+    </div>
+    <h2>Life Before the First Line of Code</h2>
+    <p>
+      The first four articles are grouped here, covering my life before coding, admission confusion, UET admission,
+      and the shift from medical to engineering.
+    </p>
+    <span class="link-inline">Open folder</span>
+  </a>
   {% for post in ordered_posts %}
+    {% assign post_number = post.article_number | plus: 0 %}
+    {% if post_number > 4 %}
     <article class="surface post-card" data-reveal data-tags="{% for tag in post.tags %}{{ tag | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}">
       <span class="post-number">Article {{ post.article_number }}</span>
       <a class="post-visual-link" href="{{ post.url | relative_url }}" aria-label="Open Article {{ post.article_number }}: {{ post.title }}">
@@ -137,5 +154,6 @@ footer_link_url: /
         <a class="link-inline" href="{{ post.url | relative_url }}">Read full article</a>
       </div>
     </article>
+    {% endif %}
   {% endfor %}
 </section>

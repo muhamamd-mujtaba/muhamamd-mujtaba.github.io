@@ -1,36 +1,20 @@
-title: "Fear, Failure, and a Lesson from Dr. Bilal Ahmad"
+﻿---
+title: "First Semester: Fear and Self-Doubt"
 description: "Article 5 of Muhammad Mujtaba's journey in Computer Engineering."
-summary: "A semester defined by fear, comparison, and an unexpected lesson from Dr. Bilal Ahmad about how failure leads to growth."
+summary: "A semester defined by anxiety, internal pressure, and the struggle to believe in my own potential."
 article_number: 5
 permalink: /posts/article-05.html
-image: /assets/article-05-first-semester.png
-tags: [Academics, Challenges]
+image: /assets/article-05-visual.svg
+points:
+  - "Constant fear of failure in every subject"
+  - "Felt emotionally stressed and demotivated"
+  - "Struggled to believe in personal abilities"
+tags:
+  - Academics
+  - Challenges
 footer_text: "Article 5 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html
+---
 
-<h2>A semester defined by fear</h2>
-<p>My first semester was filled with fear, uncertainty, and constant self-doubt. Almost every subject looked difficult to me, and because my foundation was already weak, I often felt that I was falling behind before I had even properly started. This was not a feeling tied to one bad quiz or one confusing lecture, it was a continuous, low-level anxiety that followed me from the first week onward. Whenever a new topic was introduced in class, my first reaction was almost never curiosity or excitement. It was anxiety, a quiet voice in the back of my mind asking whether I was actually capable of keeping up with everyone else in the room.</p>
-
-<h2>Where the fear started</h2>
-<p>Among all the subjects competing for my attention that semester, Programming Fundamentals stood out as the one that triggered the most fear. It was taught by Dr. Bilal Ahmad, and unlike some other courses where I could at least lean on memorization, programming demanded a completely different kind of thinking, one I had never been trained in before. Every assignment felt like a test not just of knowledge but of whether I genuinely belonged in this field at all. I remember sitting with simple exercises far longer than I probably should have, convinced that my struggle with something so basic was proof that I had made the wrong decision by choosing Computer Engineering in the first place.</p>
-
-<h2>When doubt spreads beyond one course</h2>
-<p>These thoughts did not stay confined to one course. They spread into how I viewed the entire semester. I kept thinking that I might fail my courses and prove, both to myself and to everyone around me, that I was not suitable for this field. This kind of thinking affected me emotionally far more than I expected, and it made the semester mentally exhausting in a way that had very little to do with the actual workload. Even when I tried to study seriously, sitting down for long hours and genuinely attempting to understand the material, I was rarely satisfied with my own performance. That dissatisfaction did not motivate me to try harder, at least not at first. Instead, it quietly chipped away at whatever confidence I had left.</p>
-
-<h2>The exhaustion of comparison</h2>
-<p>I often found myself questioning whether I had made the right decision by entering Computer Engineering and whether I actually had the ability to survive in such a demanding environment. Watching classmates move through programming exercises with what looked like ease only deepened that doubt. It is difficult to explain how exhausting it is to constantly compare your own struggle to someone else's apparent comfort, especially when you are already unsure of your own abilities. The exhaustion was not just academic, it was emotional, and it followed me well beyond the hours I spent actually studying. I started avoiding study groups for a while, not because I disliked the people in them, but because being around classmates who seemed to understand everything instantly made my own confusion feel louder and more permanent than it probably was.</p>
-
-<h2>An unexpected shift in perspective</h2>
-<p>What eventually shifted something in my thinking, even if only slightly, came from an unexpected place. During one of Dr. Bilal Ahmad's lectures, he was explaining how machine learning models are trained, a subject closely tied to his own research work. He mentioned that a model almost never performs well on its first attempt. It makes mistakes, gets evaluated, adjusts its internal parameters, and tries again, repeating that cycle many times before it finally becomes reliable. He pointed out that this process of repeated failure followed by gradual improvement is not a flaw in the system, it is actually the entire mechanism by which learning happens, whether for a machine or for a person sitting in his classroom.</p>
-
-<h2>Seeing my own struggle differently</h2>
-<p>That comparison stayed with me longer than I expected it to. I started to see my own struggle with Programming Fundamentals less as proof that I did not belong in this field, and more as a necessary, uncomfortable part of actually learning it. Dr. Bilal Ahmad's emphasis on iterative improvement, something he applies regularly in his own work training models on real-world datasets, gave me a slightly different lens through which to view my repeated mistakes. I was not failing in some permanent sense. I was simply early in a process that was supposed to feel difficult before it felt manageable. This did not erase the fear completely, and I want to be honest about that. There was still a small part of me that doubted everything, that questioned my choices on a near-daily basis.</p>
-
-<h2>The hope that refused to disappear</h2>
-<p>However, in the middle of all this fear, there was also a small, persistent part of me that wanted to continue trying anyway. That inner hope, quiet as it was, kept me from giving up completely, even on the days when giving up felt like the easier option. Looking back, I think that quiet persistence mattered more than any single grade or assignment that semester, because it was the thing that kept me showing up to class even when I genuinely did not want to.</p>
-
-<h2>What this semester taught me</h2>
-<p>Looking back, the first semester was not only an academic challenge, it was a personal test of strength that had very little to do with grades. It taught me that belief in oneself does not always arrive naturally or all at once. Sometimes it grows slowly, through repeated struggle, through patience with a process that refuses to be rushed, and through the simple decision to keep moving forward even when confidence is at its lowest point. Dr. Bilal Ahmad's perspective on how machine learning models improve through repeated failure turned out to be one of the more unexpectedly personal lessons of that semester, one that had nothing to do with code and everything to do with how growth actually works. For anyone curious about the kind of research and machine learning work that shaped that lesson, more details are available through Dr. Bilal Ahmad's professional profile on [LinkedIn](https://www.linkedin.com/in/drbilalphd/).</p>
-
-#MLwithDrBilalAhmad #DrBilalAhmad #MLProject
+<p>My first semester was filled with fear, uncertainty, and constant self-doubt. Almost every subject looked difficult to me, and because my foundation was already weak, I often felt that I was falling behind. Whenever a new topic was introduced, my first reaction was anxiety instead of confidence. I kept thinking that I might fail my courses and prove that I was not suitable for this field. These thoughts affected me emotionally and made the semester mentally exhausting. Even when I tried to study seriously, I was not satisfied with my own performance, and that made my confidence even weaker. I often questioned whether I had made the right decision by entering Computer Engineering and whether I had the ability to survive such an environment. However, in the middle of all this fear, there was still a small part of me that wanted to continue trying. That inner hope kept me from giving up completely. Looking back, the first semester was not only an academic challenge but also a personal test of strength. It taught me that belief in oneself does not always come naturally. Sometimes it grows slowly through struggle, patience, and the decision to keep moving forward even when confidence is low.</p>
