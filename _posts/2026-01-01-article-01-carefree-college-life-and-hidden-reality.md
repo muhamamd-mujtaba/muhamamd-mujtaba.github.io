@@ -1,13 +1,11 @@
-﻿---
+---
 title: "Carefree College Life and Hidden Reality"
 description: "Article 1 of Muhammad Mujtaba's journey in Computer Engineering."
 summary: "A reflective look back at college life before stepping into university — a time of relaxed routines, light study pressure, and limited awareness of the challenges ahead. As intermediate studies came to a close, a quiet realization set in: the comfortable phase was ending, and a more demanding, disciplined chapter was about to begin."
 article_number: 1
 permalink: /posts/article-01.html
 image: /assets/ce-article-1.png
-tags:
-  - Beginnings
-  - Growth
+tags: [Beginnings, Growth]
 footer_text: "Article 1 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
 footer_link_url: /blog.html
