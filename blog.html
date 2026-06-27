@@ -1,4 +1,4 @@
----
+﻿---
 title: Blog
 description: Read blog articles by Muhammad Mujtaba about his journey in Computer Engineering.
 permalink: /blog.html
@@ -89,14 +89,19 @@ footer_link_url: /
       <h2 class="section-heading">Browse by theme</h2>
     </div>
     <p>
-      These filters use simple JavaScript, so the page stays interactive while the content itself remains easy to manage.
+      Each theme opens the related article folder directly, so browsing works as simple navigation instead of hidden filtering.
     </p>
   </div>
-  <div class="tag-row" data-filter-group>
-    <button class="filter-chip active" type="button" data-filter="all">All</button>
-    {% for tag in sorted_tags %}
-      <button class="filter-chip" type="button" data-filter="{{ tag[0] | slugify }}">{{ tag[0] }}</button>
-    {% endfor %}
+  <div class="tag-row browse-link-row">
+    <a class="filter-chip active" href="{{ '/blog.html' | relative_url }}">All</a>
+    <a class="filter-chip" href="{{ '/life-before-the-first-line-of-code.html' | relative_url }}">Beginnings</a>
+    <a class="filter-chip" href="{{ '/life-before-the-first-line-of-code.html' | relative_url }}">Admissions</a>
+    <a class="filter-chip" href="{{ '/life-before-the-first-line-of-code.html' | relative_url }}">Transition</a>
+    <a class="filter-chip" href="{{ '/first-semester.html' | relative_url }}">Academics</a>
+    <a class="filter-chip" href="{{ '/first-semester.html' | relative_url }}">Mentorship</a>
+    <a class="filter-chip" href="{{ '/first-semester.html' | relative_url }}">Confidence</a>
+    <a class="filter-chip" href="{{ '/second-semester.html' | relative_url }}">Future</a>
+    <a class="filter-chip" href="{{ '/second-semester.html' | relative_url }}">Pressure</a>
   </div>
 </section>
 
@@ -153,3 +158,5 @@ footer_link_url: /
     <span class="link-inline">Open folder</span>
   </a>
 </section>
+
+
