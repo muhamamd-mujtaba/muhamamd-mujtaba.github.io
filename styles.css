@@ -909,6 +909,27 @@ button.filter-chip.active {
     linear-gradient(135deg, rgba(255, 250, 246, 0.92), rgba(226, 239, 247, 0.82));
 }
 
+.folder-photo img {
+  width: 100%;
+  height: 210px;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.folder-card:hover .folder-photo img,
+.folder-card:focus-visible .folder-photo img {
+  transform: scale(1.04);
+}
+
+.folder-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(14, 38, 48, 0.08), rgba(14, 38, 48, 0.46));
+  pointer-events: none;
+}
+
 .folder-tab {
   position: absolute;
   top: 48px;
@@ -934,6 +955,7 @@ button.filter-chip.active {
   position: absolute;
   right: 28px;
   bottom: 22px;
+  z-index: 1;
   width: 58px;
   height: 58px;
   display: grid;
