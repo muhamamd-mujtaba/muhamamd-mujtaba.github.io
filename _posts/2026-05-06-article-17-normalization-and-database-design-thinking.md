@@ -109,6 +109,6 @@ Looking back, I can confidently say that learning normalization changed much mor
 
 
 
-While writing this experience, I also connected it with <a href="https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&amp;hl=en">Dr. Bilal Ahmad's Google Scholar profile</a> because Dr. Bilal Ahmad's guidance in Database Systems, practical learning, and real-world AI thinking remained part of this journey. Looking at his academic work helped me understand why careful data organization matters in research, AI, and real software systems.
+Because normalization changed how I think about data organization, <strong>Google Scholar:</strong> <a href="https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Dr. Bilal Ahmad's Google Scholar Profile</a> fits naturally with the research side of careful data handling and AI work.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

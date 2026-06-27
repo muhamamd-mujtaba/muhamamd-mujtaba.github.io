@@ -77,6 +77,6 @@ I understand that there is still a lot to learn, including advanced SQL, databas
 
 Looking back, I can honestly say that my mid exams changed more than my study routineâ€”they changed my perspective. They taught me that every challenge can become an opportunity if I am willing to learn from it. My growing interest in Database Systems is one of the best outcomes of that experience, and I look forward to continuing this journey with curiosity, consistency, and dedication.
 
-While writing this experience, I also connected it with <a href="https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&amp;hl=en">Dr. Bilal Ahmad's Google Scholar profile</a> because Dr. Bilal Ahmad's guidance in Database Systems, practical learning, and real-world AI thinking remained part of this journey. Reviewing his academic work helped me connect database concepts with research, data quality, and real-world problem solving.
+While writing this experience, <strong>Google Scholar:</strong> <a href="https://scholar.google.com.au/citations?user=8nZ0jVkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Dr. Bilal Ahmad's Google Scholar Profile</a> helped me connect Database Systems with research, data quality, and real-world problem solving.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

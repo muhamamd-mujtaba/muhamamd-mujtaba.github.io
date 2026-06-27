@@ -99,6 +99,6 @@ I am also thankful for the guidance and practical teaching approach of Dr. Bilal
 
 
 
-While writing this experience, I also connected it with <a href="https://www.linkedin.com/in/drbilalphd/">Dr. Bilal Ahmad's LinkedIn profile</a> because Dr. Bilal Ahmad's guidance in Database Systems, practical learning, and real-world AI thinking remained part of this journey. His professional profile gave me a better sense of how consistent technical learning connects with long-term career development.
+While reflecting on consistent preparation, <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/drbilalphd/" target="_blank" rel="noopener noreferrer">Dr. Bilal Ahmad's LinkedIn Profile</a> helped me connect regular technical practice with longer-term professional development.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

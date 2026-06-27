@@ -93,6 +93,6 @@ Most importantly, they changed my attitude toward technical education. I now und
 
 As I continue my journey in computer science, I hope to build more database projects, improve my SQL skills, and connect this knowledge with future fields such as Artificial Intelligence, Machine Learning, and software development. The online labs proved that with proper guidance, sincere effort, and continuous practice, meaningful learning is possible regardless of whether the classroom is physical or online.
 
-While writing this experience, I also connected it with <a href="https://www.facebook.com/Dr.BilalAhm">Dr. Bilal Ahmad's Facebook page</a> because Dr. Bilal Ahmad's guidance in Database Systems, practical learning, and real-world AI thinking remained part of this journey. It gave an additional public reference for the teacher whose online lab guidance shaped this part of my semester.
+Since this article is about online labs and practical guidance, <strong>Facebook:</strong> <a href="https://www.facebook.com/Dr.BilalAhm" target="_blank" rel="noopener noreferrer">Dr. Bilal Ahmad's Facebook Page</a> fits naturally as a public reference connected with Dr. Bilal Ahmad's teaching presence.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

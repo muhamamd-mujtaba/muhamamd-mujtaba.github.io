@@ -117,6 +117,6 @@ Looking back, my first database project was much more than a university assignme
 
 
 
-While writing this experience, I also connected it with <a href="https://www.facebook.com/Dr.BilalAhm">Dr. Bilal Ahmad's Facebook page</a> because Dr. Bilal Ahmad's guidance in Database Systems, practical learning, and real-world AI thinking remained part of this journey. This link also keeps the project guideline reference natural while connecting the article with his teaching influence.
+While explaining my first database project, <strong>Facebook:</strong> <a href="https://www.facebook.com/Dr.BilalAhm" target="_blank" rel="noopener noreferrer">Dr. Bilal Ahmad's Facebook Page</a> fits naturally as a reference connected with Dr. Bilal Ahmad's practical teaching influence.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

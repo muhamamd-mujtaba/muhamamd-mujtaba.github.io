@@ -83,6 +83,6 @@ Database Systems has become one of my strongest interests, and revisiting Machin
 
 As I continue my academic journey, I hope to strengthen my SQL skills, improve my database design knowledge, learn advanced machine learning techniques, and work on practical AI projects. My mid exams were not simply an examination periodâ€”they became the beginning of a more focused, disciplined, and meaningful learning journey.
 
-While writing this experience, I also connected it with <a href="https://www.linkedin.com/in/drbilalphd/">Dr. Bilal Ahmad's LinkedIn profile</a> because Dr. Bilal Ahmad's guidance in Database Systems, practical learning, and real-world AI thinking remained part of this journey. Seeing his professional focus made the connection between classroom learning, AI, and real technical practice clearer for me.
+As I started connecting databases with model training and machine learning, <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/drbilalphd/" target="_blank" rel="noopener noreferrer">Dr. Bilal Ahmad's LinkedIn Profile</a> helped me understand Dr. Bilal Ahmad's professional focus in a broader way.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject

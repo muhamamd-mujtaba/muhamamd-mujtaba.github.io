@@ -101,6 +101,6 @@ Participating in the exhibition was one of the proudest moments of my academic j
 
 
 
-While writing this experience, I also connected it with <a href="https://www.linkedin.com/in/drbilalphd/">Dr. Bilal Ahmad's LinkedIn profile</a> because Dr. Bilal Ahmad's guidance in Database Systems, practical learning, and real-world AI thinking remained part of this journey. His professional direction toward real-world AI and ML problems made our healthcare project feel more meaningful.
+Since this article is about a healthcare AI project and public presentation, <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/drbilalphd/" target="_blank" rel="noopener noreferrer">Dr. Bilal Ahmad's LinkedIn Profile</a> connects naturally with Dr. Bilal Ahmad's professional direction toward meaningful real-world ML problems.
 
 #MLwithDrBilalAhmad #DrBilalAhmad #MLProject
