@@ -9,7 +9,7 @@ His perspective on iterative growth, drawn from his own research training models
 It taught me that belief in oneself does not arrive all at once, but grows slowly through patience, struggle, and the choice to keep moving forward."
 article_number: 5
 permalink: /posts/article-05.html
-image: /assets/article-05-first-semester.png
+image: /assets/article-05-visual.svg
 tags: [Academics, Challenges]
 footer_text: "Article 5 from My Journey in Computer Engineering."
 footer_link_label: "View All Posts"
